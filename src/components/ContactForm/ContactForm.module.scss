@@ -1,0 +1,38 @@
+.form {
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 25px;
+  border: 2px solid lightgrey;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  height: 25px;
+  font-size: 16px;
+  background-image: linear-gradient(
+    rgba(120, 181, 221, 0.76),
+    rgba(10, 27, 216, 0.9)
+  );
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0px 8px 8px rgba(39, 60, 117, 0.459);
+  color: white;
+}
